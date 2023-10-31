@@ -1,0 +1,60 @@
+.get-started{
+    width: 80%;
+    margin:4rem auto;
+
+}
+.get-started-title{
+    text-align: center;
+    line-height: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.btn-group{
+    width: 40%;
+    margin:5rem auto;
+    display: flex;
+
+    gap: 2rem;
+}
+.btn-group button{
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.btn-group button:first-child{
+    background: rgb(63, 125, 240);
+    color: white;
+}
+.btn-group button:last-child{
+    background: rgba(184, 75, 35, 0.884);
+    color: white;
+    
+}
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .btn-group{
+        width: 60%;
+        display: block;
+        gap: 2rem;
+    } 
+    .btn-group button{
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .btn-group{
+        width: 90%;
+        display: block;
+        gap: 2rem;
+    } 
+}

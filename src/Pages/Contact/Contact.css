@@ -1,0 +1,71 @@
+.contact{
+    width: 80%;
+    margin: 4rem auto;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.contact-mail{
+    text-align: center;
+}
+.contact-mail hr{
+    width: 100px;
+}
+.mail-container{
+    display: flex;
+    width: 40%;
+    margin:2rem auto;
+}
+.mail-container input{
+    padding: 1rem;
+    width: 400px;
+    outline: none;
+}
+.mail-container button{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.social{
+    margin-top: 5rem;
+    text-align: center;
+}
+.social-links{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: 42%;
+    margin:2rem auto;
+
+}
+.social-links i{
+    font-size: 3rem;
+}
+
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .mail-container{
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    .mail-container input{
+        padding: 1rem;
+        width: 80%;
+        outline: none;
+    }
+    .mail-container button{
+        width: 100px;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .social-links i{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,68 @@
+.benefit-title{
+    text-align: center;
+}
+.benefit-head{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.benefit-head img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.benefits-details{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.benefit-card{
+    width: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.benefit-card p{
+    margin-left: 2rem;
+    color: rgba(255, 255, 255, 0.897);
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .benefits-details{
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+    .benefit-card{
+        width: 40%;
+        padding: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .benefits-details{
+        margin-top: 4rem;
+        display: block;
+        width: 100%;
+       
+    }
+    .benefit-card{
+        width: 100%;
+        padding: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        
+    }
+}

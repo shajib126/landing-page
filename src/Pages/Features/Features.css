@@ -1,0 +1,64 @@
+.features{
+    width: 80%;
+    margin: 4rem auto;
+    padding: 4rem;
+}
+.features-title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.feature-details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: auto;
+}
+.feature-card{
+    width: 28%;
+    /* background: rgba(0, 0, 0, 0.116); */
+    border-radius: 1rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.feature-card > div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.feature-card img{
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+}
+.feature-card p{
+    color: rgba(255, 255, 255, 0.877);
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .feature-card{
+        width:40% ;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .feature-details{
+        display: block;
+       
+    }
+    .feature-card{
+        width: 90%;
+        background: rgba(0, 0, 0, 0.116);
+        border-radius: 1rem;
+        margin: 1rem;
+        padding: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Slab', serif;
+    }
+}
