@@ -16,7 +16,8 @@
 - [x] Footer Menu
 - [x] Footer menu icons
 - [x] Support Contact
-![Alt Text]([image_url](https://i.ibb.co/4WkgXgh/Screenshot-2023-10-31-165830.png)https://i.ibb.co/4WkgXgh/Screenshot-2023-10-31-165830.png)
+
+![Alt Text](https://i.ibb.co/4WkgXgh/Screenshot-2023-10-31-165830.png)
 
 # Installation
 ```bash
