@@ -1,7 +1,4 @@
-# Installation
-```bash
-npm install
-npm run dev
+
 - [x] Navar Menu
 - [x] Hero Slider
 - [x] About Section
@@ -19,3 +16,8 @@ npm run dev
 - [x] Footer Menu
 - [x] Footer menu icons
 - [x] Support Contact
+
+# Installation
+```bash
+npm install
+npm run dev
